@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react'
 
 const App = () => {
   const [users, setUsers] = useState([])
+  
   useEffect(() => {
     fetch("https://www.swapi.tech/api/people")
     .then(respuesta => respuesta.json())
