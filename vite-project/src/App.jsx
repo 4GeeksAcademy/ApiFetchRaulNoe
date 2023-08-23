@@ -35,7 +35,7 @@ const App = () => {
           </li>
         ))}
       </ul>
-      <button onClick={() => handlePutData(data)}>Put Data</button>
+      <button onClick={() => handlePutData(usersInfo)}>Put Data</button>
     </>
   );
 };
